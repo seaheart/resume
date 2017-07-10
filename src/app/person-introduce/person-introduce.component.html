@@ -1,0 +1,30 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-2 col-xs-2 thumbnail">
+      <img src="../../assets/images/img.png" alt="" width="100%">
+    </div>
+    <div class="col-md-10 col-xs-12 sty-padding-left">
+      <h2 class="no-margin-top"><b>殷玉辰</b></h2>
+      <div class="row">
+        <div class="col-md-2"><p>求职意向：</p></div>
+        <div class="col-md-3"><p><i class="glyphicon glyphicon-user color-red"></i>&nbsp;web前端工程师</p></div>
+        <div class="col-md-3"><p><i class="glyphicon glyphicon-home color-red"></i>&nbsp;上海市</p></div>
+      </div>
+
+      <ol class="padding-left">
+        <li *ngFor="let introduce of personalIntroduce">
+          <p>{{introduce}}</p>
+        </li>
+      </ol>
+    </div>
+    <div class="col-md-2 sty-margin">
+      <p class="sty-font-blk">15855429302</p>
+      <p class="sty-font-gry">mobile</p>
+    </div>
+    <div class="col-md-2 sty-margin sty-padding-left">
+      <p class="sty-font-blk">ycyin8795@163.com</p>
+      <p class="sty-font-gry">email</p>
+    </div>
+  </div>
+</div>
+

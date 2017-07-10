@@ -1,0 +1,21 @@
+.container{
+  width: 1000px;
+  font-size: 15px;
+}
+.title{
+  border-bottom: 1px solid #666;
+  font-size: 18px;
+}
+.color-red{
+  color: #f00;
+}
+.padding{
+  padding: 0 20px;
+}
+.margin-top{
+  margin: 35px 0;
+}
+.no-padding-left{
+  padding-left: 0 !important;
+}
+
